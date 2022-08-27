@@ -34,7 +34,7 @@ func main() {
 		word, _ := reader.ReadString('\n')
 		word = word[:len(word)-1]
 		if len(word) != len(reqWord) {
-			fmt.Printf("The word must have %d length\n", len(reqWord))
+			fmt.Printf("The word must have %d letters\n", len(reqWord))
 			i--
 			continue
 		}
